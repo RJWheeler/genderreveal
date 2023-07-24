@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    /*background-color: skyblue;*/
+    background: repeating-conic-gradient(deeppink 0% 25%, blue 0% 50%)
+     50% / 100px 100px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1{
+    font-size: 42px;
+   animation: colorchange 30s infinite;
+}
+@keyframes colorchange {
+    0%   {color: pink;}
+    20%  {color: skyblue;}
+    40%  {color: pink;}
+    60%  {color: skyblue;}
+    80%  {color: pink;}
+    100% {color: skyblue;} 
+  }
+button{
+    margin: 10px;
+    width: 25%;
+    height: 40px;
+}
+
+@media only screen and (max-width: 767px) {
+    h1{
+        font-size: 38px; 
+    }
+}
