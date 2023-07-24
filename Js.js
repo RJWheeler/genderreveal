@@ -1,6 +1,6 @@
 function btn(){
     let image = document.getElementById('image');
-    let images = 'img/dragons.jpg';
+    let images = 'dragons.jpg';
 
     image.src = images;
 }
