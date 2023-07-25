@@ -1,6 +1,5 @@
 body{
     text-align: center;
-    /*background-color: skyblue;*/
     background: repeating-conic-gradient(deeppink 0% 25%, blue 0% 50%)
      50% / 100px 100px;
 }
